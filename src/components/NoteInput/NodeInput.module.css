@@ -1,0 +1,27 @@
+.container {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.container label {
+    font-size: 14px;
+    width: 100%;
+    color: rgb(107, 107, 252);
+}
+
+.container input {
+    font-size: 15px;
+    display: block;
+    width: 100%;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(69, 59, 255);
+    border-radius: 5px;
+    font-size: 16px;
+    height: 35px;
+    font-weight: 300;
+    padding: 10px;
+    color: rgb(50, 50, 245);
+    caret-color: blue;
+}
+

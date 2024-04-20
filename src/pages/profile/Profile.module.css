@@ -1,0 +1,35 @@
+.main_container {
+    background: url('../../assets/bg-img.jpg') no-repeat center center/cover;
+    height: 100vh;
+}
+
+.container {
+    max-width: 450px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: start;
+    background-color: gray;
+    opacity: 0.8;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 3px 3px rgb(70, 68, 68);
+}
+
+.log_out_button, .delete_account_button {
+    background-color: rgb(145, 19, 19);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 2px 2px black;
+}
+
+.log_out_button:hover, .delete_account_button:hover {
+    box-shadow: 1px 1px black;
+    opacity: 0.8;
+}
